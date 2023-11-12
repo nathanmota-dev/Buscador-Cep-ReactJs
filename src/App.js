@@ -5,27 +5,28 @@ function App() {
   return (
     <div className="container">
 
-      <h1>Buscador CEP</h1>
+      <h1 className='title'>Buscador CEP</h1>
 
       <div className="containerInput">
 
         <input type="text" placeholder="Digite seu CEP"></input>
 
-        <button type="button">
+        <button type="button" className='button-Search'>
           <FiSearch size={25} color='#FFF' />
-          Buscar
         </button>
       </div>
 
-      <main className='name'>
-        <h2>CEP: 55555-222</h2>
-        <h2>Rua: Rua dos testes</h2>
-        <h2>Complemento: Complemento teste</h2>
-        <h2>Bairro: Bairro teste</h2>
-        <h2>Cidade: Cidade teste</h2>
-        <h2>Estado: Estado teste</h2>
-      </main>
+      <main className='main'>
 
+        <h2>CEP: 55555-222</h2>
+
+        <span>Rua: Rua dos testes</span>
+        <span>Complemento: Complemento teste</span>
+        <span>Bairro: Bairro teste</span>
+        <span>Cidade: Cidade teste</span>
+        <span>Estado: Estado teste</span>
+
+      </main>
     </div>
   );
 }
