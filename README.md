@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+**# Projeto React JS com React Icons e Consumo da API Via CEP**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição do Projeto
 
-## Available Scripts
+Este é um projeto simples desenvolvido com React JS que utiliza a biblioteca React Icons para exibição de ícones e consome a API do Via CEP para obter informações sobre um CEP e exibi-las na interface.
 
-In the project directory, you can run:
+![Imagem do Projeto](public/project.JPG)
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Consulta de CEP:** O usuário pode inserir um CEP na interface, e o sistema faz uma requisição à API do Via CEP para obter informações sobre o endereço associado ao CEP.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Exibição de Informações:** As informações obtidas da API, como logradouro, bairro, cidade e estado, são exibidas na interface para o usuário.
 
-### `npm test`
+3. **Ícones Personalizados:** A interface utiliza ícones personalizados fornecidos pela biblioteca React Icons para uma experiência visual mais atraente.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tecnologias Utilizadas
 
-### `npm run build`
+- **React JS:** Biblioteca JavaScript para construção de interfaces de usuário.
+- **React Icons:** Biblioteca que fornece ícones personalizados para uso em projetos React.
+- **Via CEP API:** API gratuita para consulta de informações de endereços a partir de um CEP.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como Executar o Projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone o repositório para sua máquina local:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://github.com/nathanmota-dev/Buscador-Cep-ReactJs
+   ```
 
-### `npm run eject`
+2. Navegue até o diretório do projeto:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   cd Buscador-Cep-ReactJs
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Instale as dependências:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Inicie o servidor de desenvolvimento:
 
-## Learn More
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Abra seu navegador e acesse [http://localhost:3000](http://localhost:3000) para visualizar o projeto em execução.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contribuições
 
-### Code Splitting
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para melhorar este projeto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Licença
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a Licença MIT.
